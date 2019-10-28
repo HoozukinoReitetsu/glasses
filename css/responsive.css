@@ -1,0 +1,134 @@
+@media(max-width: 800px) {
+
+    .left a,
+    .right a {
+        display: block;
+        width: 100%;
+        margin-top: 10px !important;
+        margin-bottom: 10px;
+        margin-right: 0px !important;
+        padding: 0px;
+    }
+
+    .right a {
+        text-align: center;
+    }
+
+    .header_top {
+        display: flex;
+    }
+
+    .gutter .slick-next {
+        position: absolute;
+        /*margi: 199px;n-top*/
+        top: 0px;
+        margin-left: 80% !important;
+    }
+
+    .gutter .draggable {
+        position: relative;
+        float: none;
+    }
+
+    .slick-slide {
+        width: 100%;
+    }
+
+    .gutter .draggable {
+        width: 100% !important;
+    }
+
+    .gutter_left .group {
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+
+    .gutter_left .group .detail {
+        position: absolute;
+        bottom: 0px;
+        text-align: center;
+    }
+    .gutter_right {
+        width: 100% !important;
+    }
+
+    .top_right_1,
+    .top_right_2,
+    .bottom_right_1,
+    .bottom_right_2 {
+
+        width: 100% !important;
+    }
+
+    .gutter .slick-prev {
+        margin-top: 202px !important;
+        margin-left: 20%;
+    }
+
+    .gutter .fa-chevron-right {
+        margin-top: 115px !important;
+        font-weight: 600;
+    }
+
+    .slider_text2 {
+        width: 100% !important;
+    }
+
+   .grid_fix_item {
+    width: 100%!important;
+}
+
+    .list {
+
+        text-align: left !important;
+    }
+
+    .footer .icoin a {
+
+        margin-top: 25px !important;
+        margin-bottom: 20px !important;
+    }
+
+    .logo {
+        margin-left: 20px;
+    }
+
+    .subscribe {
+        clear: both;
+        text-align: center;
+    }
+
+    .logo img {
+        margin-bottom: 20px;
+    }
+
+}
+
+@media(max-width: 1024px) {
+    .list {
+
+        text-align: left !important;
+    }
+
+}
+
+@media(min-width: 768px) and (max-width:1199px) {
+    .menu .text {
+        margin-left: 25px!important;
+    }
+}
+@media(max-width: 992px){
+	button.navbar-toggler.fas.fa-align-justify {
+			display: block!important;
+	}
+	ul.navbar-nav{
+		flex-direction: column!important;
+		display: unset!important;
+	}
+}
+@media(min-width: 993px){
+		   div#collapsibleNavbar{
+		   	display: flex;
+		   	} 
+	}

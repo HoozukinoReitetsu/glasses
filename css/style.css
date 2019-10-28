@@ -1,0 +1,575 @@
+ a:hover {
+    text-decoration: none !important;
+    color: #ccc !important;
+}
+
+.header_top a {
+    color: #ccc !important;
+    float: left;
+}
+
+.header_top {
+    height: 90px;
+}
+
+.left {
+    float: left;
+    width: calc(100% /3);
+}
+
+.right {
+    float: right;
+    width: calc(100% /3);
+}
+
+.center {
+    text-align: center;
+    float: left;
+    width: calc(100% /3);
+    margin-top: 45px;
+}
+
+.center img {
+    width: 96px;
+    margin-top: 15px;
+}
+
+.center h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.left a {
+    font-size: 14px;
+    padding-right: 10px;
+    margin-top: 70px;
+    padding-left: 18px;
+
+}
+
+.right .login {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.right a {
+    padding-left: 40px;
+    margin-top: 70px;
+    float: right;
+    font-weight: 700;
+    font-size: 12px;
+    margin-right: 15px;
+}
+
+.menu .text {
+    font-size: 11px;
+    margin-left: 40px;
+    color: #646464;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 45px;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+}
+
+.slider {
+    margin-top: 40px;
+}
+
+.content {
+    margin-top: 100px;
+}
+
+.gutter_right img {
+    float: left;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+}
+
+.gutter_right .group {
+    position: relative;
+    padding-bottom: 15px;
+    background-color: rgba(63, 62, 41, 0.2);
+    height: 270px;
+}
+
+.gutter_right .group .detail {
+    position: absolute;
+    bottom: 15px;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+}
+
+.gutter_right .group .detail .tittle {
+    font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+    font-size: 26px;
+    line-height: 40px;
+    font-weight: 300;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.group .detail h4 {
+    font-family: "Poppins", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffcc;
+}
+
+.group_btn1 {
+    display: none;
+    background-color: #d4be84;
+    font-family: "Poppins", Helvetica, Arial, sans-serif;
+    font-size: 10px;
+    color: #ffffff !important;
+    letter-spacing: 3px;
+    margin-bottom: 25px;
+    border-radius: 3px;
+    line-height: 1.3333333;
+    border-width: 0;
+    font-weight: 400;
+    width: 130px;
+    height: 45px;
+    margin-top: 25px;
+}
+
+.group:hover .group_btn1 {
+    display: inline-block;
+    background-color: #d4be84;
+    font-family: "Poppins", Helvetica, Arial, sans-serif;
+    font-size: 10px;
+    color: #ffffff !important;
+    letter-spacing: 3px;
+    margin-bottom: 25px;
+    border-radius: 3px;
+    line-height: 1.3333333;
+    border-width: 0;
+    font-weight: 400;
+    width: 130px;
+    height: 45px;
+    margin-top: 25px;
+}
+
+.gutter_left .group .detail .tittle {
+    font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+    font-size: 34px;
+    line-height: 40px;
+    font-weight: 300;
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+
+.noactive {
+    display: none;
+}
+
+.gutter_left .group img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    position: relative;
+}
+
+.gutter_right {
+    float: right;
+    width: 50%;
+    /*height: 960px;*/
+}
+
+.gutter_left .group .detail {
+    position: absolute;
+    bottom: 15px;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+}
+
+.title_content {
+    clear: both;
+    padding-top: 90px;
+    padding-bottom: 35px;
+    text-align: center;
+}
+
+.title_content h3 {
+    font-family: "Playfair Display", Helvetica, Arial, sans-serif;
+    font-size: 44px;
+    color: #333333;
+    line-height: 30px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+
+.product .top_title {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    /*margin: auto;*/
+}
+
+.top_title a,
+.top_title a:hover {
+    font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    margin-left: 20px;
+    color: #ccc;
+    padding-right: 20px;
+}
+
+.top_title .border {
+    border-right: 1px;
+    border-color: #ccc;
+    border-style: dotted;
+}
+
+.top_title .active,
+.top_title .active:hover {
+    color: #222 !important;
+}
+
+.content_product img {
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+    display: block;
+}
+
+.content_product .detail {
+    padding: 20px 20px 20px;
+    background: #fff;
+}
+
+.content_product .detail h3 {
+    /*color: #d4be84;*/
+    font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.3;
+    margin: 0 0 10px;
+    padding: 0;
+}
+
+.content_product .col-xl-4:hover h3 {
+    color: #d4be84;
+}
+
+.content_product .col-xl-4:hover img {
+    content: url('../images/glasses_qbz03-565x565_c.png');
+}
+
+.content_product .detail span {
+    font-size: 16px;
+    color: #aeb0b5;
+    font-weight: 400;
+}
+
+.btn_viewall {
+    margin-top: 100px;
+    background-color: #ffffff;
+    font-family: "Poppins", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #0a0a0a !important;
+    letter-spacing: 3px;
+    border: 1px solid #efefef !important;
+    width: 60%;
+    height: 52px;
+}
+
+.btn_viewall:hover {
+    background-color: #f2f2f2;
+}
+
+.partner {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.partner .partner_title {
+    font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 36px;
+    font-weight: 700;
+    color: #999999;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.ptner_pan {
+    margin-bottom: 20px;
+    margin-top: -5px;
+    background-color: #e0e0e0;
+    width: 50px;
+    height: 3px;
+    display: inline-block;
+}
+
+.logo img {
+    width: 164px;
+    height: 60px;
+}
+
+.grid_fix_item a {
+    top: 50%;
+    margin: auto;
+    background-color: black;
+    display: flex;
+    height: 102px;
+    align-items: center;
+    border-color: rgba(255, 255, 255, 0.1);
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+}
+
+.grid_fix_item h4 {
+    font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #ffffff;
+    font-style: normal;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin: auto;
+    margin-left: 0px;
+}
+
+.footer .name {
+    color: #000000;
+    font-size: 30px;
+    font-family: Poppins;
+    letter-spacing: 10px;
+}
+
+.footer {
+    clear: both;
+    padding-top: 60px;
+    padding-bottom: 35px;
+}
+
+.footer .icoin a {
+    font-size: 20px;
+    padding-right: 20px;
+    margin-top: 70px;
+    color: #0a0a0a;
+}
+
+.customermenu {
+    text-align: center;
+}
+
+.customermenu a {
+    display: block;
+    font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+    font-size: 11px;
+    line-height: 36px;
+    font-weight: 500;
+    width: 100%;
+    color: rgb(51, 51, 51);
+}
+
+.customermenu input {
+    padding-top: 10px;
+    font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 11px;
+    height: 44px;
+    background: rgb(34, 34, 34);
+    border-color: rgb(55, 55, 55);
+    color: rgb(255, 255, 255);
+    border-width: 1px;
+    border-style: solid;
+    width: 100%;
+    border-radius: 4px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.customermenu button {
+    background: #222;
+    border-color: #373737;
+    text-transform: uppercase;
+    font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    height: 44px;
+    color: #aeb0b5 !important;
+    padding-top: 10px;
+    border: 1px solid rgba(255, 255, 255, .7);
+    width: 130px;
+    border-radius: 3px;
+
+}
+
+.last {
+    text-align: center;
+    margin-top: 62px;
+}
+
+.last_item {
+    font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+    color: #454545;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.grid_fix_item img {
+    margin-left: 110px;
+    margin: 0px auto;
+    margin-right: 0px;
+}
+
+.top_right_1 {
+    float: left;
+    width: 50%;
+    height: 270px;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    /*height: 480px;*/
+}
+
+.top_right_2 {
+    float: right;
+    width: 50%;
+    /*height: 480px;*/
+}
+
+.bottom_right_1 {
+    float: left;
+    width: 50%;
+    height: auto;
+}
+
+.bottom_right_2 {
+    width: 50%;
+    float: right;
+}
+
+.gutter_left .group {
+    position: relative;
+    height: 540px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.slider_text {
+    text-align: center;
+    margin-bottom: 30px;
+    color: rgb(204, 204, 204);
+    font-family: "Josefin Sans";
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 6px;
+}
+
+.slider_text2 {
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(204, 204, 204);
+    font-family: "Josefin Sans";
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 2px;
+    width: 400px;
+}
+
+.slick-active {
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+
+/*}.gutter_left img{
+    float: left;
+    width: 50%!important;
+}*/
+.gutter .draggable {
+    width: 50%;
+    float: left;
+    /* height: 960px; */
+}
+
+.gutter .slick-prev,
+.gutter .slick-next {
+    z-index: 999;
+    position: absolute
+}
+
+.gutter .slick-prev {
+    font-size: 45px;
+    color: white;
+    font-weight: 600;
+    margin-top: 200px;
+}
+
+.gutter .slick-next {
+    margin-left: 45%;
+    font-size: 45px;
+    color: white;
+    font-weight: 600;
+    margin-top: 200px;
+    font-family: "Josefin Sans";
+}
+
+.fa-chevron-left {
+    float: left;
+    margin-left: 20%;
+    margin-top: 115px;
+}
+
+.fa-chevron-right {
+    float: left;
+
+    margin-top: 115px;
+
+}
+
+.slick-list.dragging {
+    cursor: pointer;
+    cursor: hand;
+    float: left;
+}
+
+.slick-slide img {
+    display: block;
+    width: 50%;
+    height: 100%;
+    margin: auto;
+}
+
+.slider .draggable {
+    width: 70%;
+    float: left;
+}
+.grid_fix_item {
+    width: 25%;
+    float: left;
+}
+button.navbar-toggler.fas.fa-align-justify {
+    right: 0px;
+    position: absolute;
+    top: 0px;
+}
